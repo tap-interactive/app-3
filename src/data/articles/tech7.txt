@@ -1,0 +1,4 @@
+As further proof that you can now 3D-print anything, a company called Natural Machines has introduced a 3D printer for food.
+The "Foodini," as it's called, isn't too different from a regular 3D printer, but instead of printing with plastics, it deploys edible ingredients squeezed out of stainless steel capsules: "It's the same technology," says Lynette Kucsma, co-founder of Natural Machines, "but with plastics there's just one melting point, whereas with food it's different temperatures, consistencies and textures. Also, gravity works a little bit against us, as food doesn't hold the shape as well as plastic."
+
+At the Web Summit technology conference in Dublin, the Barcelona-based startup is showing off the machine, which it says is the only one of its kind capable of printing a wide range of dishes, from sweet to savoury.

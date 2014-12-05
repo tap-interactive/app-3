@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://rss.cnn.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2014 Cable News Network LP, LLLP.</copyright>
+<pubDate>Tue, 18 Nov 2014 07:37:32 EST</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Sport</title>
+<link>http://edition.cnn.com/SPORT/index.html?eref=rss_sport</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://rss.cnn.com/rss/edition_sport" /><feedburner:info uri="rss/edition_sport" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+<item>
+<title>The best places to ski on Earth?</title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/24/sport/snowboarding-skiing-best-places/index.html</guid>
+<link>sports1.txt</link>
+<description>It's that time of the year when winter sports enthusiasts dust off their skis and snowboards and get ready to hit the slopes in search of perfect powder and fresh adventures.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/6S1Sa6yU08c" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 18 Nov 2014 09:08:56 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport1.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/140221135701-50places14-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/24/sport/snowboarding-skiing-best-places/index.html</feedburner:origLink>
+</item>
+<item>
+<title>The four disciplines </title>
+<guid isPermaLink="false">http://edition.cnn.com/video/data/2.0/video/sports/2014/10/28/spc-alpine-edge-skiing-explained.cnn.html</guid>
+<link>sports2.txt</link>
+<description>CNN's Christina Macfarlane breaks down the sport of Alpine Skiing.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/-3zhREZkSN8" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 29 Oct 2014 09:26:56 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport2.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141028125344-spc-alpine-edge-skiing-explained-00011926-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/video/data/2.0/video/sports/2014/10/28/spc-alpine-edge-skiing-explained.cnn.html</feedburner:origLink>
+</item>
+<item>
+<title>Freak injury rules out Svindal</title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/19/sport/skiing-svindal-achilles-football/index.html</guid>
+<link>sports3.txt</link>
+<description>A freak injury while playing an impromptu game of football with his teammates could sideline Norwegian skiing great Aksel Lund Svindal for the entire World Cup season.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/onoue7sb3Cw" height="1" width="1"/&gt;</description>
+<pubDate>Thu, 23 Oct 2014 09:27:22 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport3.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/130209204006-svindal-gold-medal-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/19/sport/skiing-svindal-achilles-football/index.html</feedburner:origLink>
+</item>
+<item>
+<title>'Magic' behind new MLS franchise</title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/31/sport/football/football-los-angeles-football-club-magic-johnson/index.html</guid>
+<link>sports4.txt</link>
+<description>Derbies often provide the highlight of any football season -- whether that be Boca Juniors vs. River Plate, AC Milan vs. Inter or Arsenal vs. Tottenham Hotspurs -- and Major League Soccer (MLS) is now hoping that Los Angeles can join that illustrious list.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/JLAifEoT7Lg" height="1" width="1"/&gt;</description>
+<pubDate>Fri, 31 Oct 2014 08:20:48 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport4.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141031114813-football-los-angeles-football-club-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/31/sport/football/football-los-angeles-football-club-magic-johnson/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Fans' refund for 8-0 loss</title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/22/sport/football/sunderland-fans-ticket-refund/index.html</guid>
+<link>sports5.txt</link>
+<description>Have English Premier League club Sunderland's players set a dangerous precedent for under-performing sports teams?&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/XQHV6F7dc2g" height="1" width="1"/&gt;</description>
+<pubDate>Sun, 26 Oct 2014 10:08:35 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport5.png"/>
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141022104155-mannone-tease-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/22/sport/football/sunderland-fans-ticket-refund/index.html</feedburner:origLink>
+</item>
+<item>
+<title>$500M venue? </title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/27/sport/football/football-santiago-bernabeu-real-madrid/index.html</guid>
+<link>sports6.txt</link>
+<description>Futuristic. Space-age. A 'world symbol.' An 'icon for an icon.' However you describe it, Real Madrid's redeveloped home seems set to to shine.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/58Yx9-6vdrM" height="1" width="1"/&gt;</description>
+<pubDate>Sat, 08 Nov 2014 09:26:25 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport6.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141017152545-gallery-real-madrid-refurb-6-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/27/sport/football/football-santiago-bernabeu-real-madrid/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Serena - 'Comments sexist, racist'</title>
+<guid isPermaLink="false">http://edition.cnn.com/2014/10/19/sport/tennis/tennis-serena-sharapova-tarpischev/index.html</guid>
+<link>sports7.txt</link>
+<description>Serena Williams slams Russian tennis chief Shamil Tarpischev for his "insensitive, sexist and racist" remarks in describing her and sister Venus as the "Williams brothers" on a late night TV chat show.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/WgaTkwL8qCk" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 28 Oct 2014 07:38:02 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport7.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141019112343-serena-presser-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/2014/10/19/sport/tennis/tennis-serena-sharapova-tarpischev/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Thomas Muster's tour stories</title>
+<guid isPermaLink="false">http://edition.cnn.com/video/data/2.0/video/sports/2014/10/16/spc-open-court-d-thomas-muster.cnn.html</guid>
+<link>sports8.txt</link>
+<description>Former world No. 1 Thomas Muster meets Open Court's Pat Cash in Vienna to discuss the challenges of traveling on tour.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/FuHpB4TFQA4" height="1" width="1"/&gt;</description>
+<pubDate>Thu, 16 Oct 2014 10:52:24 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport8.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141016154856-thomas-muster-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/video/data/2.0/video/sports/2014/10/16/spc-open-court-d-thomas-muster.cnn.html</feedburner:origLink>
+</item>
+<item>
+<title>'The Dominator' - Austria's new star</title>
+<guid isPermaLink="false">http://edition.cnn.com/video/data/2.0/video/sports/2014/10/16/spc-open-court-f-dominic-thiem.cnn.html</guid>
+<link>sports9.txt</link>
+<description>Pat Cash squares off against the youngest men's player in the ATP Tour's top 40. Meet Austria's rising star Dominic Thiem.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_sport/~4/0sDT_qQgLrI" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 28 Oct 2014 07:37:21 EDT</pubDate>
+<media:thumbnail height="51" width="90" url="sport9.png"/>
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/140529181044-french-wrap-2-top-tease.jpg" />
+<feedburner:origLink>http://edition.cnn.com/video/data/2.0/video/sports/2014/10/16/spc-open-court-f-dominic-thiem.cnn.html</feedburner:origLink>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,5 @@
+When executives at the chain restaurant Panera Bread started having secret talks with Apple in June, they immediately knew Apple Pay was a safe bet.
+It takes a huge target off the company's back. Apple Pay's security features mean thatPanera Bread (PNRA) doesn't collect credit card data from shoppers, so it has less to lose if it ever gets hacked. "This makes complete sense," said Blaine Hurst, a top technology executive at Panera. 
+"It clearly reduces liability. It takes any transaction done with Apple Pay out of my major list of concerns."Instead of handing shops your credit card, Apple Pay generates a one-time-use, unique code. It's not worth stealing. "That's nirvana for merchants," said Jason Oxman, who heads the Electronic Transaction Association trade group. This is important in the Age of Hacks. 
+
+When thieves break into a major retailer's computers and steal credit cards, fraud charges initially hit banks but eventually slide down to the shop that got hacked. Target (TGT) already faces $148 million in costs related to its data breach last year. Home Depot (HD) is expected to pay out even more.

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http:/.cnn.com/~d/stylescontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http:/namespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2014 Cable News Network LP, LLLP.</copyright>
+<pubDate>Thu, 06 Nov 2014 07:22:28 EST</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Technology</title>
+<link>http://www.cnn.com/TECH/index.html?eref=rss_tech</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application+xml" href="http://rss.cnn.com/rss/edition_technology" /><feedburner:info uri="rss/edition_technology" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+<item>
+<title>Former CEO: Tinder 'removes friction'</title>
+<guid isPermaLink="false">http://www.cnn.com/video/data/2.0/video/tech/2014/11/05/money-former-tinder-ceo-sean-rad-dating-love.cnnmoney.html</guid>
+<link>tech1.txt</link>
+<description>Tinder co-founder Sean Rad sat down with CNNMoney's Laurie Segall to talk about how the app has changed the dating game.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/ojPtOrpzLyc" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 09:05:38 EST</pubDate>
+<media:thumbnail height="51" width="90" url="tech1.png"/>
+<feedburner:origLink>http://www.cnn.com/video/data/2.0/video/tech/2014/11/05/money-former-tinder-ceo-sean-rad-dating-love.cnnmoney.html</feedburner:origLink>
+</item>
+<item>
+<title>900 vintage arcade games</title>
+<guid isPermaLink="false">http://www.cnn.com/2014/11/04/tech/900-arcade-games-internet/index.html</guid>
+<link>tech2.txt</link>
+<description>Lovers of vintage arcade games just got an early holiday present. The Internet Archive has released more than 900 games from the '70s through the '90s.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/PSh0uasLWoo" height="1" width="1"/&gt;</description>
+<pubDate>Mon, 17 Nov 2014 17:04:23 EST</pubDate>
+<media:thumbnail height="51" width="90" url="tech2.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104075408-pacman-video-game-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/2014/11/04/tech/900-arcade-games-internet/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Dropbox CEO turned down Jobs</title>
+<guid isPermaLink="false">http://www.cnn.com/video/data/2.0/video/tech/2014/11/05/money-dropbox-drew-houston-silicon-valley-gender-gap.cnnmoney.html</guid>
+<link>tech3.txt</link>
+<description>Dropbox CEO Drew Houston talks to Laurie Segall about turning down an offer from Steve Jobs and why there is a gender pay gap in Silicon Valley.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/B-xoyEMeojs" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 13:42:53 EST</pubDate>
+<media:thumbnail height="51" width="90" url="tech3.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141105133943-money-dropbox-drew-houston-silicon-valley-gender-gap-00000117-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/video/data/2.0/video/tech/2014/11/05/money-dropbox-drew-houston-silicon-valley-gender-gap.cnnmoney.html</feedburner:origLink>
+</item>
+<item>
+<title>Classic arcade games online</title>
+<guid isPermaLink="false">http://www.cnn.com/video/data/2.0/video/tech/2014/11/04/internet-archive-vintage-arcade-games-orig-mg.cnn.html</guid>
+<link>tech4.txt</link>
+<description>The Internet Archive has released more than 900 classic arcade games from the 1970s through the 1990s, online for free.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/dF2sOxQd8U0" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 10:04:08 EST</pubDate>
+<media:thumbnail height="51" width="90" url="tech4.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104165340-internet-archive-vintage-arcade-games-orig-mg-00000919-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/video/data/2.0/video/tech/2014/11/04/internet-archive-vintage-arcade-games-orig-mg.cnn.html</feedburner:origLink>
+</item>
+<item>
+<title>Oculus virtual reality 'months away'</title>
+<guid isPermaLink="false">http://www.cnn.com/2014/11/05/tech/innovation/oculus-rift/index.html</guid>
+<link>tech5.txt</link>
+<description>The Oculus Rift isn't just for games -- it could revolutionize the way we communicate.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_technology/~4/992k5O-VbmA" height="1" width="1"/&gt;</description>
+<pubDate>Fri, 07 Nov 2014 05:56:42 EST</pubDate>
+<media:thumbnail height="51" width="90" url="tech5.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141105095530-oculus-crescent-bay-prototype-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/2014/11/05/tech/innovation/oculus-rift/index.html</feedburner:origLink>
+</item>
+</channel>
+</rss>

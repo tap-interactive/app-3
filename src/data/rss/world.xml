@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://rss.cnn.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>CNN.com - Top Stories</title>
+<link>world13.txt</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2014 Cable News Network LP, LLLP.</copyright>
+<pubDate>Thu, 06 Nov 2014 07:06:19 EST</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Top Stories</title>
+<link></link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://rss.cnn.com/rss/edition" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+<item>
+<title>Why Temple Mount flashpoint?</title>
+<guid>http://edition.cnn.com/2014/11/03/world/meast/jerusalem-temple-mount-crisis-lister/index.html</guid>
+<link>world1.txt</link>
+<description>Renewed clashes over the holy site have stirred tension in Jerusalem. But why now?</description>
+<pubDate>Mon, 03 Nov 2014 19:53:57 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world1.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141103145457-jerusalem-1-top-tease.jpg" />
+</item>
+<item>
+<title>Knifeman cuts U.S. star in China</title>
+<guid>http://edition.cnn.com/2014/11/04/world/asia/brittney-griner-attacked-china/index.html</guid>
+<link>world2.txt</link>
+<description>Basketball star Brittney Griner was cut Monday by a man with a knife while she was on a bus the day before a game with her Chinese team.</description>
+<pubDate>Wed, 05 Nov 2014 05:37:00 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world2.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104195258-brittney-griner-team-usa-1004-top-tease.jpg" />
+</item>
+<item>
+<title>Man, charged for feeding homeless</title>
+<guid>http://edition.cnn.com/2014/11/04/justice/florida-feeding-homeless-charges/index.html</guid>
+<link>world3.txt</link>
+<description>Arnold Abbott handed out four plates of food to homeless people in a South Florida park. Then police stopped the 90-year-old from serving up another bite. </description>
+<pubDate>Wed, 05 Nov 2014 06:01:57 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world3.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141105055333-dnt-90-year-old-man-feeding-homeless-00002113-top-tease.jpg" />
+</item>
+<item>
+<title>SEALs warned on bin Laden raid</title>
+<guid>http://edition.cnn.com/2014/11/03/us/navy-seals-mission-secrecy/index.html</guid>
+<link>world4.txt</link>
+<description>A U.S. commander issues a terse warning to Navy SEALS, that's seemingly directed at one who published details of the Osama bin Laden mission. </description>
+<pubDate>Wed, 05 Nov 2014 08:18:04 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world4.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/130501081220-10-osama-death-top-tease.jpg" />
+</item>
+<item>
+<title>Is this beginning of the end for EU?</title>
+<guid>http://edition.cnn.com/2014/11/04/opinion/david-cameron-angela-merkel-eu/index.html</guid>
+<link>world5.txt</link>
+<description>Does a referendum promise mean Britain could 'accidentally' exit the EU?</description>
+<pubDate>Tue, 04 Nov 2014 15:08:08 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world5.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104092627-david-cameron-angela-merkel-top-tease.jpg" />
+</item>
+<item>
+<title>'Celebrate fall of Berlin Wall'</title>
+<guid>http://edition.cnn.com/2014/11/04/opinion/baker-berlin-wall-anniversary/index.html</guid>
+<link>world6.txt</link>
+<description>The Berlin Wall is a reminder to people everywhere that tyranny can't suppress the will of those yearning for freedom, says James Baker, U.S. Secretary of State when the wall came down.</description>
+<pubDate>Wed, 05 Nov 2014 09:51:33 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world6.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/111223115628-berlin-wall-1989-top-tease.jpg" />
+</item>
+<item>
+<title>Airstrikes target Islamists</title>
+<guid>http://edition.cnn.com/2014/11/06/world/meast/syria-crisis/index.html</guid>
+<link>world7.txt</link>
+<description>U.S. airstrikes against ISIS targeted the Islamist rebel group Ahrar al Sham for the first time in Syria, a monitoring group says.</description>
+<pubDate>Thu, 06 Nov 2014 07:05:17 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world7.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141029112538-kobani-man-binoculars-top-tease.jpg" />
+</item>
+<item>
+<title>U.N. has Syria chem. weapons plan</title>
+<guid>http://edition.cnn.com/2014/11/05/world/meast/syria-chemical-weapons/index.html</guid>
+<link>world8.txt</link>
+<description>A U.N. official has a message for those worried about chemical weapons in Syria: A plan is in motion to do something about them.</description>
+<media:thumbnail height="51" width="90" url="world8.png" />
+<pubDate>Thu, 06 Nov 2014 07:00:32 EST</pubDate>
+</item>
+<item>
+<title>ISIS 'beat children'</title>
+<guid>http://edition.cnn.com/2014/11/04/world/meast/isis-kobani-children-torture-allegation/index.html</guid>
+<link>world9.txt</link>
+<description>Children were tortured by ISIS after they took school exams, says a human rights group which adds the boys were also forced to watch beheading videos. </description>
+<pubDate>Tue, 04 Nov 2014 15:10:32 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world9.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/140922104849-isis-militant-flames-of-war-top-tease.jpg" />
+</item>
+<item>
+<title>Attraction of ISIS. Why?</title>
+<guid>http://edition.cnn.com/video/data/2.0/video/world/2014/11/05/intv-reza-aslan-the-appeal-of-isis.cnn.html</guid>
+<link>world10.txt</link>
+<description>Reza Aslan examines the appeal of ISIS and why the group is able to successfully attract so many recruits.</description>
+<pubDate>Thu, 06 Nov 2014 07:03:20 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world10.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104205927-intv-reza-aslan-the-appeal-of-isis-00032202-top-tease.jpg" />
+</item>
+<item>
+<title>Why West must roll back in Iraq, Syria</title>
+<guid>http://edition.cnn.com/2014/11/05/opinion/isis-al-qaeda-quilliam/index.html</guid>
+<link>world11.txt</link>
+<description>Last month, the Yemen-based branch of Ayman al-Zawahiri's international terrorist network, al Qaeda in the Arabian Peninsula (AQAP), released a worrying statement calling on Muslims around the world to forget their differences and renew their efforts to carry out operations against American targets, be they civilian, governmental, military or diplomatic. </description>
+<pubDate>Wed, 05 Nov 2014 13:02:15 EST</pubDate>
+<media:thumbnail height="51" width="90" url="world11.png" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141017121747-kobani-smoke-top-tease.jpg" />
+</item>
+
+</channel>
+</rss>

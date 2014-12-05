@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://rss.cnn.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+<language>en-US</language>
+<copyright>Copyright 2014 Cable News Network LP, LLLP.</copyright>
+<pubDate>Thu, 06 Nov 2014 08:15:45 EST</pubDate>
+<ttl>10</ttl>
+<image>
+<title>CNN.com - Entertainment</title>
+<link>http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz</link>
+<url>http://i.cdn.turner.com/cnn/.e/img/1.0/logo/cnn.logo.rss.gif</url>
+<width>144</width>
+<height>33</height>
+<description>CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.</description>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://rss.cnn.com/rss/edition_entertainment" /><feedburner:info uri="rss/edition_entertainment" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+<item>
+<title>Beyoncé No. 1 on Forbes list</title>
+<guid isPermaLink="false">http://www.cnn.com/2014/11/05/showbiz/music/beyonce-top-earning-female-artist-forbes/index.html</guid>
+<link>entertainment1.txt</link>
+<description>Taylor Swift may be breaking records in the music industry, but Beyoncé is breaking the bank.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/SaQjBlS0woM" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 08:29:11 EST</pubDate>
+<media:thumbnail height="51" width="90" url="http://i2.cdn.turner.com/cnn/dam/assets/130605111643-beyonce-06012013-top-tease.jpg" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/130605111643-beyonce-06012013-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/2014/11/05/showbiz/music/beyonce-top-earning-female-artist-forbes/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Wayne Brady reveals depression battle</title>
+<guid isPermaLink="false">http://www.cnn.com/2014/11/04/showbiz/celebrity-news-gossip/wayne-brady-depression/index.html</guid>
+<link>entertainment2.txt</link>
+<description>In front of the camera, Wayne Brady is known for making people laugh. But behind the camera, the comedic talent has been struggling with depression.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/ksAkRpOJ48s" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 06:28:34 EST</pubDate>
+<media:thumbnail height="51" width="90" url="http://i2.cdn.turner.com/cnn/dam/assets/141105062720-entt3-wayne-brady-top-tease.jpg" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141105062720-entt3-wayne-brady-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/2014/11/04/showbiz/celebrity-news-gossip/wayne-brady-depression/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Amanda Bynes' Twitter confusion</title>
+<guid isPermaLink="false">http://www.cnn.com/2014/11/04/showbiz/amanda-bynes-tweets/index.html</guid>
+<link>entertainment3.txt</link>
+<description>Actress Amanda Bynes says she's been diagnosed as bipolar and manic depressive and is on medication.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/Q8PqAENOJy8" height="1" width="1"/&gt;</description>
+<pubDate>Tue, 04 Nov 2014 11:26:36 EST</pubDate>
+<media:thumbnail height="51" width="90" url="http://i2.cdn.turner.com/cnn/dam/assets/141024140011-14-twitter-exits-top-tease.jpg" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141024140011-14-twitter-exits-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/2014/11/04/showbiz/amanda-bynes-tweets/index.html</feedburner:origLink>
+</item>
+<item>
+<title>Kid meltdown in classic Kimmel prank</title>
+<guid isPermaLink="false">http://www.cnn.com/video/data/2.0/video/showbiz/2014/11/04/mxp-kimmel-halloween-candy-prank.hln.html</guid>
+<link>entertainment4.txt</link>
+<description>ABC's Jimmy Kimmel asked parents to tell their children that they ate all of their Halloween candy.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_entertainment/~4/qGtbQs_7r3E" height="1" width="1"/&gt;</description>
+<pubDate>Wed, 05 Nov 2014 11:06:57 EST</pubDate>
+<media:thumbnail height="51" width="90" url="http://i2.cdn.turner.com/cnn/dam/assets/141104073634-mxp-kimmel-halloween-candy-prank-00001701-top-tease.jpg" />
+<media:content height="51" width="90" medium="image" type="image/jpeg" url="http://i2.cdn.turner.com/cnn/dam/assets/141104073634-mxp-kimmel-halloween-candy-prank-00001701-top-tease.jpg" />
+<feedburner:origLink>http://www.cnn.com/video/data/2.0/video/showbiz/2014/11/04/mxp-kimmel-halloween-candy-prank.hln.html</feedburner:origLink>
+</item>
+</channel>
+</rss>
