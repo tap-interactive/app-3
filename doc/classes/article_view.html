@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><strong>article_view</strong></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>article_view</code></h1>
+<p>Article View class
+This class prints all the graphics of the article view including heading, content, images and advertisement.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:new">Article_view:new ()</a></td>
+	<td class="summary">Constructor/Factory for the article view object
+ This is the constructor of the article view.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_background">Article_view:print_background ()</a></td>
+	<td class="summary">Prints the background of the article view.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_title">Article_view:print_title (title)</a></td>
+	<td class="summary">Prints the title of the article
+This function prints the title of an article in the article view at the right position with the 'Li' font.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_category">Article_view:print_category (category)</a></td>
+	<td class="summary">Print the article tag of an article
+This function takes in what category the article belongs to and finds the corresponding image to the category.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_article_text">Article_view:print_article_text (text)</a></td>
+	<td class="summary">Prints the text of the article (the article text).</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_ingress">Article_view:print_ingress (ingress)</a></td>
+	<td class="summary">Print the ingress of an article
+This function takes in the ingress as a string and prints it in the article view.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_date">Article_view:print_date (date)</a></td>
+	<td class="summary">Prints the date of the article
+This function takes in the date and prints it at the right position with font 'Li'.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_image">Article_view:print_image (image)</a></td>
+	<td class="summary">Prints the image of the article
+This function takes in the image name and prints the corresponding image at the right position.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Article_view:print_ad">Article_view:print_ad (category)</a></td>
+	<td class="summary">Prints the most appropriate add for the article
+This function takes in the category and prints an add based on that category at the right position.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Article_view:new"></a>
+    <strong>Article_view:new ()</strong>
+    </dt>
+    <dd>
+    Constructor/Factory for the article view object
+ This is the constructor of the article view.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        The article view instance
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_background"></a>
+    <strong>Article_view:print_background ()</strong>
+    </dt>
+    <dd>
+    Prints the background of the article view.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_title"></a>
+    <strong>Article_view:print_title (title)</strong>
+    </dt>
+    <dd>
+    Prints the title of the article
+This function prints the title of an article in the article view at the right position with the 'Li' font.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">title</span>
+         A string with the title of the article that is being printed
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_category"></a>
+    <strong>Article_view:print_category (category)</strong>
+    </dt>
+    <dd>
+    Print the article tag of an article
+This function takes in what category the article belongs to and finds the corresponding image to the category.  It the prints it in the article view at the right position.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">category</span>
+         A string of what category the article belongs to.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_article_text"></a>
+    <strong>Article_view:print_article_text (text)</strong>
+    </dt>
+    <dd>
+    Prints the text of the article (the article text).
+This function print the text of an article  to the article view at the right position with font 'anonymousprobold'.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+         A string with the article text.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_ingress"></a>
+    <strong>Article_view:print_ingress (ingress)</strong>
+    </dt>
+    <dd>
+    Print the ingress of an article
+This function takes in the ingress as a string and prints it in the article view.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">ingress</span>
+         A string with the article ingress.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_date"></a>
+    <strong>Article_view:print_date (date)</strong>
+    </dt>
+    <dd>
+    Prints the date of the article
+This function takes in the date and prints it at the right position with font 'Li'.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">date</span>
+         The date of the article as a string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_image"></a>
+    <strong>Article_view:print_image (image)</strong>
+    </dt>
+    <dd>
+    Prints the image of the article
+This function takes in the image name and prints the corresponding image at the right position.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">image</span>
+         A string with the file name of the article image.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Article_view:print_ad"></a>
+    <strong>Article_view:print_ad (category)</strong>
+    </dt>
+    <dd>
+    Prints the most appropriate add for the article
+This function takes in the category and prints an add based on that category at the right position.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">category</span>
+         A string of what category the article belongs to.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

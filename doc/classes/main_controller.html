@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><strong>main_controller</strong></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>main_controller</code></h1>
+<p>Main controller class
+
+ Main_controller for managing the main feeds on the main_view.</p>
+<p>
+</p>
+    <h3>Info:</h3>
+    <ul>
+        <li><strong>Copyright</strong>: FeedMe@TAP interactive</li>
+        <li><strong>Author</strong>: Li & Ylva</li>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:new">Main_controller:new (arguments)</a></td>
+	<td class="summary">Constructor/Factory for the controller object with
+
+ inheritance from the base controller.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:move">Main_controller:move (direction)</a></td>
+	<td class="summary">Control the movement of the highlight navigation on the main_view</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:on_input">Main_controller:on_input (key, state)</a></td>
+	<td class="summary">The crontroller's main task is to manage incoming events
+
+ and user input.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:open_next_feed">Main_controller:open_next_feed ()</a></td>
+	<td class="summary">Opens next feed
+
+ Opens next feed in the of the AVALIABLE_FEEDS table, in GUI it is going to the right</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:open_previous_feed">Main_controller:open_previous_feed ()</a></td>
+	<td class="summary">Opens the previous feed
+
+ Opens the previous feed in the of the AVALIABLE_FEEDS table, in GUI it is going to the left</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:has_left_news">Main_controller:has_left_news ()</a></td>
+	<td class="summary">Checks if there is more news to the left
+
+This function checks if it is possible to go left in a news feed by checking is the current page is equal to 1 or not.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:has_right_news">Main_controller:has_right_news ()</a></td>
+	<td class="summary">Checks if there is more news to the right
+
+This function checks if it is possible to go right in a news feed by checking is the size of the news table is more than 1 * page number.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:has_news">Main_controller:has_news (direction)</a></td>
+	<td class="summary">Checks if there is any news down or to the left.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:has_super_right">Main_controller:has_super_right (position)</a></td>
+	<td class="summary">Checks if there is a news to the right on the next page.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_controller:open_main_view">Main_controller:open_main_view ()</a></td>
+	<td class="summary">Function for opening the fista page (home)
+
+ Prints the first page in the main view with the highligt over position 1.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Main_controller:new"></a>
+    <strong>Main_controller:new (arguments)</strong>
+    </dt>
+    <dd>
+    Constructor/Factory for the controller object with
+
+ inheritance from the base controller.
+
+ See controller.lua for description of object orientation.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">arguments</span>
+         Arguments needed for new an controller object
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        object Main_controller object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:move"></a>
+    <strong>Main_controller:move (direction)</strong>
+    </dt>
+    <dd>
+    Control the movement of the highlight navigation on the main_view
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">direction</span>
+         The direction inputted from the remote controller
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:on_input"></a>
+    <strong>Main_controller:on_input (key, state)</strong>
+    </dt>
+    <dd>
+    The crontroller's main task is to manage incoming events
+
+ and user input.  This is function manages rcu input.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">key</span>
+         The key input from the RCU
+        </li>
+        <li><span class="parameter">state</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:open_next_feed"></a>
+    <strong>Main_controller:open_next_feed ()</strong>
+    </dt>
+    <dd>
+    Opens next feed
+
+ Opens next feed in the of the AVALIABLE_FEEDS table, in GUI it is going to the right
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:open_previous_feed"></a>
+    <strong>Main_controller:open_previous_feed ()</strong>
+    </dt>
+    <dd>
+    Opens the previous feed
+
+ Opens the previous feed in the of the AVALIABLE_FEEDS table, in GUI it is going to the left
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:has_left_news"></a>
+    <strong>Main_controller:has_left_news ()</strong>
+    </dt>
+    <dd>
+    Checks if there is more news to the left
+
+This function checks if it is possible to go left in a news feed by checking is the current page is equal to 1 or not.
+
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        true if the there is more news to the left, else return false.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:has_right_news"></a>
+    <strong>Main_controller:has_right_news ()</strong>
+    </dt>
+    <dd>
+    Checks if there is more news to the right
+
+This function checks if it is possible to go right in a news feed by checking is the size of the news table is more than 1 * page number.
+
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        true if the there is more news to the right, else return false.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:has_news"></a>
+    <strong>Main_controller:has_news (direction)</strong>
+    </dt>
+    <dd>
+    Checks if there is any news down or to the left.
+
+This function checks if it is posible to navigate down or to the right based on if there are any more news in the feed.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">direction</span>
+         The direction of a key press.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        false if there is no news to the right or down, else return true.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:has_super_right"></a>
+    <strong>Main_controller:has_super_right (position)</strong>
+    </dt>
+    <dd>
+    Checks if there is a news to the right on the next page.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">position</span>
+
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        false if there is not news on the other page o the right, else return true
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_controller:open_main_view"></a>
+    <strong>Main_controller:open_main_view ()</strong>
+    </dt>
+    <dd>
+    Function for opening the fista page (home)
+
+ Prints the first page in the main view with the highligt over position 1.
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

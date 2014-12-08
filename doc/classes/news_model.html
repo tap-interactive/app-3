@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><strong>news_model</strong></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>news_model</code></h1>
+<p>News Model Class
+ Build the main_news_model.</p>
+<p>
+ Main_news_model for fetching all the news from news_table and creating the news object.</p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#News_model:new">News_model:new (object)</a></td>
+	<td class="summary">Constructor/Factory of the news model for the main_view's news object.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:download_news">News_model:download_news ()</a></td>
+	<td class="summary">Download news XML files from online API</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:download_images">News_model:download_images ()</a></td>
+	<td class="summary">Download images from online API</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:get_news_feed">News_model:get_news_feed (feed)</a></td>
+	<td class="summary">Getter for news feeds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:get_article">News_model:get_article (position, feed)</a></td>
+	<td class="summary">Getter for one article.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:get_size">News_model:get_size (feed)</a></td>
+	<td class="summary">Returns the size of a feed
+This function takes in a feed an fetches the news table corresponding to that feed and returns the size of that table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:create_all_news">News_model:create_all_news ()</a></td>
+	<td class="summary">Creates a table with all news
+This function adds all the news from the different categories to the allNews table and sorts it based on pubDate.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:sort">News_model:sort (news)</a></td>
+	<td class="summary">Sorts the news based on publishing date.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:append_table">News_model:append_table (t1, t2)</a></td>
+	<td class="summary">Adds a table to another table
+This function takes in two tables as parameters and adds the second table to the end of the first table.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:get_date">News_model:get_date (s)</a></td>
+	<td class="summary">Finds os.time format for an article's pubDate
+This function finds the year, month,day and time in the pubDate string and returns the date on os.time format.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#News_model:load_xml">News_model:load_xml ()</a></td>
+	<td class="summary">Creates the news tables
+This function creates all the different feeds by calling the read_xml function for each xml file and sorts them based on publishing date.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "News_model:new"></a>
+    <strong>News_model:new (object)</strong>
+    </dt>
+    <dd>
+    Constructor/Factory of the news model for the main_view's news object.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">object</span>
+         Main_news_model object
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        object Main_news_model object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:download_news"></a>
+    <strong>News_model:download_news ()</strong>
+    </dt>
+    <dd>
+    Download news XML files from online API
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:download_images"></a>
+    <strong>News_model:download_images ()</strong>
+    </dt>
+    <dd>
+    Download images from online API
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:get_news_feed"></a>
+    <strong>News_model:get_news_feed (feed)</strong>
+    </dt>
+    <dd>
+    Getter for news feeds.
+This function takes in a feed and returns the news table corresponding to that category.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">feed</span>
+         The feed of news that is retrieved.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        a news table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:get_article"></a>
+    <strong>News_model:get_article (position, feed)</strong>
+    </dt>
+    <dd>
+    Getter for one article.
+This function takes in a position and a feed and fetched the news table corresponding to the feed. It then returns the article at the position.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">position</span>
+         The position in the news table where the article wanted i located.
+        </li>
+        <li><span class="parameter">feed</span>
+         The feed that the wanted article belongs to.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        a table with all information about one article.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:get_size"></a>
+    <strong>News_model:get_size (feed)</strong>
+    </dt>
+    <dd>
+    Returns the size of a feed
+This function takes in a feed an fetches the news table corresponding to that feed and returns the size of that table.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">feed</span>
+         The feed that we want to know the size of.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the number of news in a news table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:create_all_news"></a>
+    <strong>News_model:create_all_news ()</strong>
+    </dt>
+    <dd>
+    Creates a table with all news
+This function adds all the news from the different categories to the allNews table and sorts it based on pubDate.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:sort"></a>
+    <strong>News_model:sort (news)</strong>
+    </dt>
+    <dd>
+    Sorts the news based on publishing date.
+ Takes in a news table and sorts it by using an anonymous function based on the publishing date.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">news</span>
+         The news table to be sorted.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:append_table"></a>
+    <strong>News_model:append_table (t1, t2)</strong>
+    </dt>
+    <dd>
+    Adds a table to another table
+This function takes in two tables as parameters and adds the second table to the end of the first table.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">t1</span>
+         The fist table
+        </li>
+        <li><span class="parameter">t2</span>
+         The second table
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        t1
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:get_date"></a>
+    <strong>News_model:get_date (s)</strong>
+    </dt>
+    <dd>
+    Finds os.time format for an article's pubDate
+This function finds the year, month,day and time in the pubDate string and returns the date on os.time format.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">s</span>
+         string corresponding to the news pubDate
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        date in os.time format.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "News_model:load_xml"></a>
+    <strong>News_model:load_xml ()</strong>
+    </dt>
+    <dd>
+    Creates the news tables
+This function creates all the different feeds by calling the read_xml function for each xml file and sorts them based on publishing date.
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

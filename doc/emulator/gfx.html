@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><strong>gfx</strong></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Emulator <code>gfx</code></h1>
+<p>Emulator Gfx module
+
+ Simulating LuaEngine API
+
+ The module about the graphics operations on the screen</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#new_surface">new_surface (width, height)</a></td>
+	<td class="summary">Creates and returns a new 32-bit RGBA graphics surface of chosen
+
+ dimensions.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#update">update ()</a></td>
+	<td class="summary">gfx.update()
+
+ Makes any pending changes to screen visible.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#loadpng">loadpng (path)</a></td>
+	<td class="summary">gfx.loadpng(path)
+
+ Loads the PNG image at <path> into a new surface that is
+
+ returned.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#loadjpeg">loadjpeg (path)</a></td>
+	<td class="summary">gfx.loadjpeg(path)
+
+ Loads the JPEG image at <path> into a new surface that is returned.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "new_surface"></a>
+    <strong>new_surface (width, height)</strong>
+    </dt>
+    <dd>
+    Creates and returns a new 32-bit RGBA graphics surface of chosen
+
+ dimensions.  The surface pixels are not initialized; clear() or
+
+ copyfrom() should be used for this.
+
+ An error is raised if enough graphics memory cannot be allocated.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">width</span>
+         The width of the surface (Must be a positive integer and less than 10000.)
+        </li>
+        <li><span class="parameter">height</span>
+         The height of the surface (Must be a positive integer and less than 10000.)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        surface The new surface with the width and height set
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "update"></a>
+    <strong>update ()</strong>
+    </dt>
+    <dd>
+    gfx.update()
+
+ Makes any pending changes to screen visible.
+
+ The surface that shows up on the screen when gfx.update() is called.
+
+ Calling gfx.set_auto_update(true) makes the screen update
+
+ automatically when screen is changed (for development; too slow
+
+ for animations)
+
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "loadpng"></a>
+    <strong>loadpng (path)</strong>
+    </dt>
+    <dd>
+    gfx.loadpng(path)
+
+ Loads the PNG image at <path> into a new surface that is
+
+ returned.  The image is always translated to 32-bit
+
+ RGBA. Transparency is preserved. A call to surface:premultiply()
+
+ might be necessary for transparency to work.
+
+ An error is raised if not enough graphics memory can be allocated.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">path</span>
+         The source path used to load the png image
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        surface The surface of the new loaded png image
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "loadjpeg"></a>
+    <strong>loadjpeg (path)</strong>
+    </dt>
+    <dd>
+    gfx.loadjpeg(path)
+
+ Loads the JPEG image at <path> into a new surface that is returned.
+
+ The image is always translated to 32-bit RGBA. All pixels will be
+
+ opaque since JPEG does not support transparency.
+
+ An error is raised if not enough graphics memory can be allocated.
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">path</span>
+         The source path used to load the png image
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        surface The surface of the new loaded png image
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

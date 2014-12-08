@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><strong>events</strong></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Emulator <code>events</code></h1>
+<p>Emulator Events Module
+
+ The Events module is an event manager hand handler for keyboard and
+
+ system events, emulating Zenterio's LuaEngine behavior.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#love.load">love.load ()</a></td>
+	<td class="summary">Loves main load file, called on start.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#love.update">love.update (dt)</a></td>
+	<td class="summary">Loves main update function
+
+ used to calculate timers</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#love.draw">love.draw ()</a></td>
+	<td class="summary">Callback function used to draw the screen on every frame
+
+ We use a global variable to draw once when gfx.update() has been called</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#love.keypressed">love.keypressed (key, isrepeat)</a></td>
+	<td class="summary">Love key press callback function</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#love.keyreleased">love.keyreleased (key)</a></td>
+	<td class="summary">Love key release callback function</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "love.load"></a>
+    <strong>love.load ()</strong>
+    </dt>
+    <dd>
+    Loves main load file, called on start.  Forwards to LuaEngine API onStart() function
+
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "love.update"></a>
+    <strong>love.update (dt)</strong>
+    </dt>
+    <dd>
+    Loves main update function
+
+ used to calculate timers
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">dt</span>
+         Delta time, the time since last update
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "love.draw"></a>
+    <strong>love.draw ()</strong>
+    </dt>
+    <dd>
+    Callback function used to draw the screen on every frame
+
+ We use a global variable to draw once when gfx.update() has been called
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "love.keypressed"></a>
+    <strong>love.keypressed (key, isrepeat)</strong>
+    </dt>
+    <dd>
+    Love key press callback function
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">key</span>
+         The character of the key press you input from the keyboard
+        </li>
+        <li><span class="parameter">isrepeat</span>
+         Enable or disable the key repeat
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "love.keyreleased"></a>
+    <strong>love.keyreleased (key)</strong>
+    </dt>
+    <dd>
+    Love key release callback function
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">key</span>
+         The character of the key press you input from the keyboard
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

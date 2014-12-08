@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><strong>main_view</strong></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><a href="../modules/text_printer.html">text_printer</a></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>main_view</code></h1>
+<p>Main_view
+ Prints the graphics of the Main_view
+ Prints the background, news_articles, news_headlines, highlight, category_highlight and category_tag
+ Prints the border of the specified square and also "press OK" sign</p>
+<p></p>
+    <h3>Info:</h3>
+    <ul>
+        <li><strong>Copyright</strong>: FeedMe@TAP interactive</li>
+        <li><strong>Author</strong>: Li & Ylva</li>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:new">Main_view:new ()</a></td>
+	<td class="summary">Constructor/Factory for the view object.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:load">Main_view:load (news)</a></td>
+	<td class="summary">Load the news, highlight and category_highlight.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:highlight">Main_view:highlight (position)</a></td>
+	<td class="summary">Highlight the article on the Main_view-</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:category_highlight">Main_view:category_highlight (position)</a></td>
+	<td class="summary">Highlight category on the Main_view on the top of the screen.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:print_headlines">Main_view:print_headlines (main_view_news)</a></td>
+	<td class="summary">Print headlines in the specified squares.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:add_thumbnail">Main_view:add_thumbnail (main_view_news)</a></td>
+	<td class="summary">Print the border of the specified square, the category tag and also "press OK" sign.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:add_left_arrow">Main_view:add_left_arrow ()</a></td>
+	<td class="summary">Prints the left arrow at the right position</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Main_view:add_right_arrow">Main_view:add_right_arrow ()</a></td>
+	<td class="summary">Prints the right arrow at the right position</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Main_view:new"></a>
+    <strong>Main_view:new ()</strong>
+    </dt>
+    <dd>
+    Constructor/Factory for the view object.
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        object Return Main_view object.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:load"></a>
+    <strong>Main_view:load (news)</strong>
+    </dt>
+    <dd>
+    Load the news, highlight and category_highlight.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">news</span>
+         Load the table of all news.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:highlight"></a>
+    <strong>Main_view:highlight (position)</strong>
+    </dt>
+    <dd>
+    Highlight the article on the Main_view-
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">position</span>
+         The position code on the screen based on the 9 square.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        null For testing .
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:category_highlight"></a>
+    <strong>Main_view:category_highlight (position)</strong>
+    </dt>
+    <dd>
+    Highlight category on the Main_view on the top of the screen.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">position</span>
+         The position where the category is.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        null For testing .
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:print_headlines"></a>
+    <strong>Main_view:print_headlines (main_view_news)</strong>
+    </dt>
+    <dd>
+    Print headlines in the specified squares.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">main_view_news</span>
+         The table of all news.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:add_thumbnail"></a>
+    <strong>Main_view:add_thumbnail (main_view_news)</strong>
+    </dt>
+    <dd>
+    Print the border of the specified square, the category tag and also "press OK" sign.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">main_view_news</span>
+         The table of all news.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:add_left_arrow"></a>
+    <strong>Main_view:add_left_arrow ()</strong>
+    </dt>
+    <dd>
+    Prints the left arrow at the right position
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Main_view:add_right_arrow"></a>
+    <strong>Main_view:add_right_arrow ()</strong>
+    </dt>
+    <dd>
+    Prints the right arrow at the right position
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

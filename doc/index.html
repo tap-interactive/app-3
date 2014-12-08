@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+
+
+
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="emulator/events.html">events</a></li>
+  <li><a href="emulator/gfx.html">gfx</a></li>
+  <li><a href="emulator/surface.html">surface</a></li>
+  <li><a href="emulator/system.html">system</a></li>
+  <li><a href="emulator/timer.html">timer</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="modules/app.html">app</a></li>
+  <li><a href="modules/download.html">download</a></li>
+  <li><a href="modules/font_loader.html">font_loader</a></li>
+  <li><a href="modules/graphics.html">graphics</a></li>
+  <li><a href="modules/lib.log.html">lib.log</a></li>
+  <li><a href="modules/text_printer.html">text_printer</a></li>
+  <li><a href="modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="classes/article_controller.html">article_controller</a></li>
+  <li><a href="classes/article_view.html">article_view</a></li>
+  <li><a href="classes/controller.html">controller</a></li>
+  <li><a href="classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="classes/Help_view.html">Help_view</a></li>
+  <li><a href="classes/main_controller.html">main_controller</a></li>
+  <li><a href="classes/main_view.html">main_view</a></li>
+  <li><a href="classes/news_model.html">news_model</a></li>
+  <li><a href="classes/view.html">view</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+
+  <h2>News feed application for LuaEngine</h2>
+
+<h2>Emulator</h2>
+<table class="module_list">
+	<tr>
+		<td class="name"  nowrap><a href="emulator/events.html">events</a></td>
+		<td class="summary">Emulator Events Module
+
+ The Events module is an event manager hand handler for keyboard and
+
+ system events, emulating Zenterio's LuaEngine behavior.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="emulator/gfx.html">gfx</a></td>
+		<td class="summary">Emulator Gfx module
+
+ Simulating LuaEngine API
+
+ The module about the graphics operations on the screen</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="emulator/surface.html">surface</a></td>
+		<td class="summary">Emulator Surface module
+
+ Surface data types
+
+ The surface simulation on emulator based on the Zenterio API used for operating the surface like creating a surface, get the pixel etc.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="emulator/system.html">system</a></td>
+		<td class="summary">Emulator system Module
+
+ The system simulation on emulator based on the Zenterio API used for system control of system, create a new timer or return the time clock of system.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="emulator/timer.html">timer</a></td>
+		<td class="summary">Emulator timer Module
+
+ The timer simulation on emulator based on the Zenterio API used for time control of system.</td>
+	</tr>
+</table>
+<h2>Modules</h2>
+<table class="module_list">
+	<tr>
+		<td class="name"  nowrap><a href="modules/app.html">app</a></td>
+		<td class="summary">Called on when app starts
+
+ LuaEngine API function called when the script is started in the environment</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/download.html">download</a></td>
+		<td class="summary">Downloads module
+ Performs http file downloads with the LuaSocket API.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/font_loader.html">font_loader</a></td>
+		<td class="summary">Font_loader Module
+ Integration of the functions for printing text on the screen
+ used as a help library
+ Fonts [UbuntuMono Bold Capital for Headlines] [Anonymous Pro Bold for Ingress] [Anoymous Pro Regular for Article]</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/graphics.html">graphics</a></td>
+		<td class="summary">Graphics module</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/lib.log.html">lib.log</a></td>
+		<td class="summary">TAP interactive
+
+ Simple logging module for testing and debugging
+
+ It uses three severity levels:
+
+ .info(message) - No problems, just information
+
+ .warning(message) - Warnings for potential problems
+
+ .error(message) - Fatal errors that should not occur</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/text_printer.html">text_printer</a></td>
+		<td class="summary">Text_printer Module
+ Integration of the functions for printing text on the screen
+ used as a help library</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="modules/xml_to_table.html">xml_to_table</a></td>
+		<td class="summary">Parses an xml file with news to a table with the news.</td>
+	</tr>
+</table>
+<h2>Classes</h2>
+<table class="module_list">
+	<tr>
+		<td class="name"  nowrap><a href="classes/article_controller.html">article_controller</a></td>
+		<td class="summary">Controls the articles.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/article_view.html">article_view</a></td>
+		<td class="summary">Article View class
+This class prints all the graphics of the article view including heading, content, images and advertisement.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/controller.html">controller</a></td>
+		<td class="summary">Base controller class</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Help_controller.html">Help_controller</a></td>
+		<td class="summary">Controls the help view.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Help_view.html">Help_view</a></td>
+		<td class="summary">Help View class
+This class prints the help guide image view .</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/main_controller.html">main_controller</a></td>
+		<td class="summary">Main controller class
+
+ Main_controller for managing the main feeds on the main_view.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/main_view.html">main_view</a></td>
+		<td class="summary">Main_view
+ Prints the graphics of the Main_view
+ Prints the background, news_articles, news_headlines, highlight, category_highlight and category_tag
+ Prints the border of the specified square and also "press OK" sign</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/news_model.html">news_model</a></td>
+		<td class="summary">News Model Class
+ Build the main_news_model.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/view.html">view</a></td>
+		<td class="summary">View
+ Base class for views</td>
+	</tr>
+</table>
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

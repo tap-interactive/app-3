@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>TAP interactive - App 3</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>TAP interactive - App 3</h1>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/app.html">app</a></li>
+  <li><a href="../modules/download.html">download</a></li>
+  <li><a href="../modules/font_loader.html">font_loader</a></li>
+  <li><a href="../modules/graphics.html">graphics</a></li>
+  <li><a href="../modules/lib.log.html">lib.log</a></li>
+  <li><strong>text_printer</strong></li>
+  <li><a href="../modules/xml_to_table.html">xml_to_table</a></li>
+</ul>
+<h2>Emulator</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../emulator/events.html">events</a></li>
+  <li><a href="../emulator/gfx.html">gfx</a></li>
+  <li><a href="../emulator/surface.html">surface</a></li>
+  <li><a href="../emulator/system.html">system</a></li>
+  <li><a href="../emulator/timer.html">timer</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/article_controller.html">article_controller</a></li>
+  <li><a href="../classes/article_view.html">article_view</a></li>
+  <li><a href="../classes/controller.html">controller</a></li>
+  <li><a href="../classes/Help_controller.html">Help_controller</a></li>
+  <li><a href="../classes/Help_view.html">Help_view</a></li>
+  <li><a href="../classes/main_controller.html">main_controller</a></li>
+  <li><a href="../classes/main_view.html">main_view</a></li>
+  <li><a href="../classes/news_model.html">news_model</a></li>
+  <li><a href="../classes/view.html">view</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>text_printer</code></h1>
+<p>Text_printer Module
+ Integration of the functions for printing text on the screen
+ used as a help library</p>
+<p></p>
+    <h3>Info:</h3>
+    <ul>
+        <li><strong>Copyright</strong>: FeedMe@TAP interactive</li>
+        <li><strong>Author</strong>: Li</li>
+    </ul>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#get_chr_img">get_chr_img (chr, letter_width)</a></td>
+	<td class="summary">[[ Get character's single image</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#cal_surface_height">cal_surface_height (x, y, max_width, max_height, letter_width, letter_height)</a></td>
+	<td class="summary">Calculate the height of the new surface
+ <<TESTED AND WORKING ON THE STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#cal_surface_width">cal_surface_width (max_width)</a></td>
+	<td class="summary">Calculate the width of the new surface</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#text_surface_pos_on_des">text_surface_pos_on_des (x, y)</a></td>
+	<td class="summary">Initialize the screen destination coordinates
+ <<TESTED AND WORKING ON STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#letter_crop_from_src">letter_crop_from_src (x, y)</a></td>
+	<td class="summary">Initialize the new surface source cordinator of the upper left corner
+ <<TESTED AND WORKING ON THE STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#surface_initialize">surface_initialize (surface_width, surface_height)</a></td>
+	<td class="summary">Initialize the new surface
+ <<TESTED AND WORKING ON THE STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#fill_surface">fill_surface (img, x, y)</a></td>
+	<td class="summary">Patch up the character img on surface.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#text_surface_pos_on_des_zoom">text_surface_pos_on_des_zoom (x, y, zoom)</a></td>
+	<td class="summary">Initialize the screen destination coordinates by zooming
+ <<TESTED AND WORKING ON STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#surface_reset">surface_reset ()</a></td>
+	<td class="summary">Reset the text_xi, text_yi, line_len
+ <<TESTED AND WORKING ON THE STB>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#new_line">new_line ()</a></td>
+	<td class="summary">Reset the text_xi, text_yi, line_len to get a new line
+ <<TESTED AND WORKING ON THE BOX>></td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#parse_text_to_surface">parse_text_to_surface (text, max_width, max_height, letter_width, letter_height)</a></td>
+	<td class="summary">Parse the text (from the string to word, from the word to character) to patch up the surface with the character img parsed</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#parse_text_to_surface_special">parse_text_to_surface_special (text, max_width, max_height, letter_width, letter_height)</a></td>
+	<td class="summary">Parse the text (Support more characters) to patch up the surface with the character img parsed</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#print_text">print_text (mixed_text, x, y, max_width, max_height, font, character_case)</a></td>
+	<td class="summary">A function that prints a string on a surface.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#print_text_zoom">print_text_zoom (mixed_text, x, y, max_width, max_height, font, character_case, zoom)</a></td>
+	<td class="summary">A function that prints a string on a surface with the zooming size that set by users.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "get_chr_img"></a>
+    <strong>get_chr_img (chr, letter_width)</strong>
+    </dt>
+    <dd>
+    [[ Get character's single image
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">chr</span>
+         (the ASCII code of the character wanted) [Integer]
+        </li>
+        <li><span class="parameter">letter_width</span>
+         (the character's width) [Integer]
+]]
+ <<TESTED AND WORKING ON THE STB>>
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "cal_surface_height"></a>
+    <strong>cal_surface_height (x, y, max_width, max_height, letter_width, letter_height)</strong>
+    </dt>
+    <dd>
+    Calculate the height of the new surface
+ <<TESTED AND WORKING ON THE STB>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+         (The x-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">max_width</span>
+         (The maximum width the surface is allowed to occupy) [Integer]
+        </li>
+        <li><span class="parameter">max_height</span>
+         (The maximum height the surface is allowed to occupy,if the text is too long it ends with "...") [Integer]
+        </li>
+        <li><span class="parameter">letter_width</span>
+         (the width of the letter) [Integer]
+        </li>
+        <li><span class="parameter">letter_height</span>
+         (the height of the letter) [Integer]
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        temp_surface_height The height of the surface
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "cal_surface_width"></a>
+    <strong>cal_surface_width (max_width)</strong>
+    </dt>
+    <dd>
+    Calculate the width of the new surface
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">max_width</span>
+         The maximum width the surface is allowed to occupy [Integer]
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        max_width The width of the surface
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "text_surface_pos_on_des"></a>
+    <strong>text_surface_pos_on_des (x, y)</strong>
+    </dt>
+    <dd>
+    Initialize the screen destination coordinates
+ <<TESTED AND WORKING ON STB>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+         (The x-position of the screen's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the screen's upper left corner) [Integer]
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        text_surface_des_rec The destination position of the text_surface on the screen
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "letter_crop_from_src"></a>
+    <strong>letter_crop_from_src (x, y)</strong>
+    </dt>
+    <dd>
+    Initialize the new surface source cordinator of the upper left corner
+ <<TESTED AND WORKING ON THE STB>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+         (The x-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the surface's upper left corner) [Integer]
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        letter_src_rec
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "surface_initialize"></a>
+    <strong>surface_initialize (surface_width, surface_height)</strong>
+    </dt>
+    <dd>
+    Initialize the new surface
+ <<TESTED AND WORKING ON THE STB>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">surface_width</span>
+         (the width of the surface you want to create) [Integer]
+        </li>
+        <li><span class="parameter">surface_height</span>
+         (the height of the surface you want to create) [Integer]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "fill_surface"></a>
+    <strong>fill_surface (img, x, y)</strong>
+    </dt>
+    <dd>
+    Patch up the character img on surface.
+ <<TESTED AND WORKING ON THE BOX>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">img</span>
+         (each character's img) [img]
+        </li>
+        <li><span class="parameter">x</span>
+         (the x-position of the surface's left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (the y-position of the surface's left corner) [Integer]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "text_surface_pos_on_des_zoom"></a>
+    <strong>text_surface_pos_on_des_zoom (x, y, zoom)</strong>
+    </dt>
+    <dd>
+    Initialize the screen destination coordinates by zooming
+ <<TESTED AND WORKING ON STB>>
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">x</span>
+         (The x-position of the screen's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the screen's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">zoom</span>
+         (The zooming size)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        text_surface_des_rec The destination position of the text_surface on the screen
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "surface_reset"></a>
+    <strong>surface_reset ()</strong>
+    </dt>
+    <dd>
+    Reset the text_xi, text_yi, line_len
+ <<TESTED AND WORKING ON THE STB>>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "new_line"></a>
+    <strong>new_line ()</strong>
+    </dt>
+    <dd>
+    Reset the text_xi, text_yi, line_len to get a new line
+ <<TESTED AND WORKING ON THE BOX>>
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "parse_text_to_surface"></a>
+    <strong>parse_text_to_surface (text, max_width, max_height, letter_width, letter_height)</strong>
+    </dt>
+    <dd>
+    Parse the text (from the string to word, from the word to character) to patch up the surface with the character img parsed
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+         (the text to print on the screen) [String]
+        </li>
+        <li><span class="parameter">max_width</span>
+         (The maximum width the surface is allowed to occupy) [Integer]
+        </li>
+        <li><span class="parameter">max_height</span>
+         (The maximum height the surface is allowed to occupy, if the text is too long it ends with "...") [Integer]
+        </li>
+        <li><span class="parameter">letter_width</span>
+         (the width of the letter) [Integer]
+        </li>
+        <li><span class="parameter">letter_height</span>
+         (the height of the letter) [Integer]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "parse_text_to_surface_special"></a>
+    <strong>parse_text_to_surface_special (text, max_width, max_height, letter_width, letter_height)</strong>
+    </dt>
+    <dd>
+    Parse the text (Support more characters) to patch up the surface with the character img parsed
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+         (the text to print on the screen) [String]
+        </li>
+        <li><span class="parameter">max_width</span>
+         (The maximum width the surface is allowed to occupy) [Integer]
+        </li>
+        <li><span class="parameter">max_height</span>
+         (The maximum height the surface is allowed to occupy, if the text is too long it ends with "...") [Integer]
+        </li>
+        <li><span class="parameter">letter_width</span>
+         (the width of the letter) [Integer]
+        </li>
+        <li><span class="parameter">letter_height</span>
+         (the height of the letter) [Integer]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "print_text"></a>
+    <strong>print_text (mixed_text, x, y, max_width, max_height, font, character_case)</strong>
+    </dt>
+    <dd>
+    A function that prints a string on a surface.  The surface size is dependent on the length of
+ the string as well as the restrictions of allowed maximum width and height. The parameters are:
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">mixed_text</span>
+         (The string to be printed) [String]
+        </li>
+        <li><span class="parameter">x</span>
+         (The x-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">max_width</span>
+         (The maximum width the surface is allowed to occupy) [Integer]
+        </li>
+        <li><span class="parameter">max_height</span>
+         (The maximum height the surface is allowed to occupy,
+ if the text is too long it ends with "...") [Integer]
+        </li>
+        <li><span class="parameter">font</span>
+         (The name of the font as well as the size of it) [Table]
+        </li>
+        <li><span class="parameter">character_case</span>
+         (The type of the character wanted to be printed [uppercase or lowercase]) [String]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "print_text_zoom"></a>
+    <strong>print_text_zoom (mixed_text, x, y, max_width, max_height, font, character_case, zoom)</strong>
+    </dt>
+    <dd>
+    A function that prints a string on a surface with the zooming size that set by users.  The parameters are:
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">mixed_text</span>
+         (The string to be printed) [String]
+        </li>
+        <li><span class="parameter">x</span>
+         (The x-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">y</span>
+         (The y-position of the surface's upper left corner) [Integer]
+        </li>
+        <li><span class="parameter">max_width</span>
+         (The maximum width the surface is allowed to occupy) [Integer]
+        </li>
+        <li><span class="parameter">max_height</span>
+         (The maximum height the surface is allowed to occupy,
+ if the text is too long it ends with "...") [Integer]
+        </li>
+        <li><span class="parameter">font</span>
+         (The name of the font as well as the size of it) [String]
+        </li>
+        <li><span class="parameter">character_case</span>
+         (The type of the character wanted to be printed [uppercase or lowercase]) [String]
+        </li>
+        <li><span class="parameter">zoom</span>
+         (The zooming size of the surface printed on the screen) [Integer]
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2014-12-08 11:05:03 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
