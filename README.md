@@ -13,8 +13,9 @@
 ## License
 The source code for the application is licensed under the GPL v3 license, http://www.gnu.org/copyleft/gpl.html
 
-External contents included in the project which are NOT covered by the app license:
+External contents included in the project which are **NOT** covered by the app license:
 - src/data/articles Text contents from Yahoo News (news.yahoo.com)
 - src/data/rss Text contents from Yahoo News (news.yahoo.com)
 - src/data/img Images from Yahoo News (news.yahoo.com)
 - src/data/fonts Fonts from Google Fonts (google.com/fonts)
+- test/luaunit.lua LuaUnit unit testing frameowrk (BSC License, see file)
