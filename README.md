@@ -11,7 +11,7 @@
 2. If not using start script, run the app with the following command (or corresponding for Mac/Linux): love.exe c:\path\to\app-3\
 
 ## License
-The source code for the application is licensed under MIT License, http://opensource.org/licenses/MIT
+The source code for the application is licensed under the GPL v3 license, http://www.gnu.org/copyleft/gpl.html
 
 External contents included in the project which are NOT covered by the app license:
 - src/data/articles Text contents from Yahoo News (news.yahoo.com)
