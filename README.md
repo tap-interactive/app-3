@@ -1,4 +1,4 @@
-# TAP Interactive App 1 - Feedme
+# TAP Interactive App 3 - Feedme
 
 ## Run the app on the box
 1. Copy the following files to a USB stick: app.lua, lib and src
